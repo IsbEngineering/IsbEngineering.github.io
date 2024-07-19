@@ -1,5 +1,6 @@
 body {
   background-color: rgb(205, 232, 235);
+  font-family: "AppleSDGothicNeoM";
 }
 p {
   color: rgb(0, 0, 0);
@@ -30,7 +31,6 @@ p {
 .fifth,
 .sixth {
   display: inline-block;
-  margin: -17px;
   animation-duration: 1.5s;
   animation-iteration-count: 1;
   animation-timing-function: ease;
@@ -81,4 +81,10 @@ p {
     visibility: visible;
     opacity: 1;
   }
+}
+
+@font-face {
+  font-family: "AppleSDGothicNeoM";
+  src: url("./fonts/AppleSDGothicNeoM.ttf") format("woff"),
+    url("./fonts/AppleSDGothicNeoM.ttf") format("woff2");
 }
