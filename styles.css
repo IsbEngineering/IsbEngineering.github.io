@@ -85,6 +85,5 @@ p {
 
 @font-face {
   font-family: "AppleSDGothicNeoM";
-  src: url("./fonts/AppleSDGothicNeoM.ttf") format("woff"),
-    url("./fonts/AppleSDGothicNeoM.ttf") format("woff2");
+  src: url("./fonts/AppleSDGothicNeoM.ttf") format("truetype");
 }
